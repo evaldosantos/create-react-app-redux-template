@@ -1,10 +1,6 @@
-import React from "react";
-import {
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
-import { ConnectedRouter } from 'connected-react-router'
+import React from 'react';
+import { Switch, Route, Link } from 'react-router-dom';
+import { ConnectedRouter } from 'connected-react-router';
 import { history } from './store/store';
 
 // This site has 3 pages, all of which are rendered
